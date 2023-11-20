@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Login Form</title>
+
+    <!-- <script src="../login form/validation.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="../login form/formstyle.css">
+    <script src="./validation.js"></script>
+  </head>
+  <body>
+    <div class="signIn">
+      <form name="form-sign">
+        <h1>SIGN IN</h1>
+
+        <label for="name">Email</label>
+        <input type="email" id="name" placeholder="Username" required /> 
+        <br />
+        <br />
+
+        <label for="user name">Name</label>
+        <input type="name" id="user-name" placeholder="Full name" required />
+        <br />
+        <br />
+
+        <label for="Pw">Password</label>
+        <input type="password" id="pw" placeholder="Password" required />
+        <div id="err" >Please fill up your pass</div>
+        <br />
+        <br />
+
+        <label for="phoneNo">Phone No</label>
+        <input type="number" id="phoneNo" placeholder="Mobile No" required />
+        <div id="errPhone" >Please fill up your phone number</div>
+        <br />
+        <br />
+
+        <label for="address">Address</label>
+        <input type="address" id="address" placeholder="Address" required />
+        <br />
+        <br />
+
+        <label for="city">city code</label>
+        <input type="pincode" id="pincode" placeholder="pincode" required />
+        <br />
+        <br />
+
+        <input id="rgstr_btn" value="Register" onclick="store()" />
+
+        <a href="../login form/sign.html">
+          <input id="login_btn" value="login" />
+          <!-- <button type="button" onclick="check()">Login</button> -->
+        </a>
+
+        <!-- <button onclick="store()">Submit</button> -->
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.signIn {
+    margin: auto;
+    padding: 22px 22px 22px 22px;
+    width: 100%;
+    /* width: 400px; */
+    border-radius: 5px;
+    background: grey;
+    border-top: 3px solid #434a52;
+    border-bottom: 3px solid #434a52;
+  }
+
+#err {
+    display: none;
+     background-color: aliceblue; 
+     width: 300px;
+}
+
+#errPhone {
+    display: none;
+    background-color: aliceblue; 
+    width: 300px;
+  
+}
+
+  #rgstr_btn {
+background-color: antiquewhite;
+  }
+
+#login_btn {
+    background-color: antiquewhite;
+}
+
+.login {
+    margin: auto;
+    padding: 22px 22px 22px 22px;
+    width: 100%;
+    border-radius: 5px;
+    background: grey;
+    border-top: 3px solid #434a52;
+    border-bottom: 3px solid #434a52;
+}
